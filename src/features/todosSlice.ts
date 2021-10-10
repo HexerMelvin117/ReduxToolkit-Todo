@@ -9,7 +9,7 @@ const initialState: todosState = {
 };
 
 export const todosSlice = createSlice({
-  name: "reservations",
+  name: "todos",
   initialState,
   reducers: {
     addTodo: (state, action: PayloadAction<string>) => {
