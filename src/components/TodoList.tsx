@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { removeTodo } from "../features/todosSlice";
-import { Todo } from "../interfaces/todo";
+import { removeTodo } from "features/todosSlice";
+import { Todo } from "interfaces/todo";
 
 interface TodoListProps {
   todos: Todo[];

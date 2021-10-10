@@ -1,9 +1,9 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import TodoList from "./components/TodoList";
-import { addTodo } from "./features/todosSlice";
-import { Todo } from "./interfaces/todo";
-import { RootState } from "./store";
+import TodoList from "components/TodoList";
+import { addTodo } from "features/todosSlice";
+import { Todo } from "interfaces/todo";
+import { RootState } from "store";
 
 function App() {
   const [todo, setTodo] = React.useState("");
